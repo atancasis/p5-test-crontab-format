@@ -53,5 +53,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ryochin/p5-test-crontab-format/issues"
+      },
+      "homepage" : "https://github.com/ryochin/p5-test-crontab-format",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ryochin/p5-test-crontab-format.git",
+         "web" : "https://github.com/ryochin/p5-test-crontab-format"
+      }
+   },
    "version" : "0.01"
 }

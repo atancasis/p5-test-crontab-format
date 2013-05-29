@@ -91,7 +91,7 @@ Test::Crontab::Format - Check crontab format validity
 
 =head1 DESCRIPTION
 
-Test::Crontab::Format checkes your crontab format is valid or not.
+Test::Crontab::Format checks your crontab format is valid or not.
 
 =head1 FUNCTIONS
 
@@ -99,7 +99,7 @@ Test::Crontab::Format checkes your crontab format is valid or not.
 
 =item B<crontab_format_ok>
 
-Checkes the validity. You can pass file name or scalar ref.
+Checks the validity. You can pass file name or scalar ref.
 
 =back
 

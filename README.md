@@ -11,13 +11,13 @@ Test::Crontab::Format - Check crontab format validity
 
 # DESCRIPTION
 
-Test::Crontab::Format checkes your crontab format is valid or not.
+Test::Crontab::Format checks your crontab format is valid or not.
 
 # FUNCTIONS
 
 - __crontab\_format\_ok__
 
-    Checkes the validity. You can pass file name or scalar ref.
+    Checks the validity. You can pass file name or scalar ref.
 
 # NOTE
 
