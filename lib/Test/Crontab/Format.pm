@@ -111,6 +111,10 @@ passing empty file/content always yields failure.
 
 Parse::Crontab
 
+=head1 SEE ALSO
+
+example/crontab_format.t
+
 =head1 REPOSITORY
 
 https://github.com/ryochin/p5-test-crontab-format

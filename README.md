@@ -27,6 +27,10 @@ passing empty file/content always yields failure.
 
 Parse::Crontab
 
+# SEE ALSO
+
+example/crontab\_format.t
+
 # REPOSITORY
 
 https://github.com/ryochin/p5-test-crontab-format
