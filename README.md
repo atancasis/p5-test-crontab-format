@@ -23,9 +23,13 @@ Test::Crontab::Format checkes your crontab format is valid or not.
 
 passing empty file/content always yields failure.
 
-# SEE ALSO
+# DEPENDENCY
 
 Parse::Crontab
+
+# REPOSITORY
+
+https://github.com/ryochin/p5-test-crontab-format
 
 # AUTHOR
 
@@ -33,7 +37,7 @@ Ryo Okamoto <ryo@aquahill.net>
 
 # COPYRIGHT & LICENSE
 
-Copyright (C) Ryo Okamoto, all rights reserved.
+Copyright (c) Ryo Okamoto, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
