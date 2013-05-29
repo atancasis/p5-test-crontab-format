@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Test::Tester;
-use Test::More tests => 6 * 4;
+use Test::More tests => 6 * 5;
 use Test::Crontab::Format;
 
 # ok
@@ -46,6 +46,21 @@ do {
 	    name => $file,
 	},
 	"unreadable file"
+    );
+};
+
+# directory
+do {
+    my $file = "lib/";
+    check_test(
+	sub {
+	    crontab_format_ok( $file );
+	},
+	{
+	    ok   => 0,
+	    name => $file,
+	},
+	"is directory"
     );
 };
 

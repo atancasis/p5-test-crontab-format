@@ -51,7 +51,7 @@ sub crontab_format_ok {
     }
     else{
 	my $file = $thingy;
-	if( not -r $file ){
+	if( not -f $file or not -r $file ){
 	    $test->ok( 0, $file );
 	    $test->diag( sprintf "file '%s' not readable", $file );
 	}
