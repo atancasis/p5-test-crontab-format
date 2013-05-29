@@ -1,6 +1,5 @@
 Revision history for Perl extension Test-Crontab-Format
 
-{{$NEXT}}
-
-    - original version
+0.01  Wed May 29 16:47:55 JST 2013
+	* first release.
 
