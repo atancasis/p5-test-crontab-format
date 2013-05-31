@@ -21,7 +21,7 @@ Test::Crontab::Format checks your crontab format is valid or not.
 
 # NOTE
 
-passing empty file/content always yields failure.
+passing empty (0 byte) file/content always yields failure despite Parse::Crontab treats it as success.
 
 # DEPENDENCY
 
