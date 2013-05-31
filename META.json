@@ -48,7 +48,8 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "Test::Tester" : "0"
          }
       }
    },
