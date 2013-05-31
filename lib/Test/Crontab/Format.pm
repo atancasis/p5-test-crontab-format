@@ -10,7 +10,7 @@ use Parse::Crontab 0.03;
 
 # ABSTRACT: Check crontab format validity
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 our @EXPORT = qw(
     crontab_format_ok
